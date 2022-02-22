@@ -1,12 +1,14 @@
 
- 
+header {
+    font-size: 10rem;
+} 
   body {
        background-color:rgb(206, 209, 212);
        margin: 0 10%;
        font-family: Georgia, 'Times New Roman', Times, serif
    }
    header {
-       background-color: rgb(56, 96, 170);
+       background-color: #3860aa;
        padding: 2rem;
        
        font-family: 'Chakra Petch', sans-serif; 
@@ -21,8 +23,9 @@
    }
    h3 {
        font: size 1.25em; 
-    .circle {
-border-radius: 50%;
-border: 5px solid #9abcf8;
-    }
+
    }
+   img {
+    border-radius: 50%;
+    border: 5px solid #3860aa;
+}
