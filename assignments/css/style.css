@@ -1,7 +1,5 @@
 
-header {
-    font-size: 10rem;
-} 
+
   body {
        background-color:rgb(206, 209, 212);
        margin: 0 10%;
@@ -12,9 +10,10 @@ header {
        padding: 2rem;
        
        font-family: 'Chakra Petch', sans-serif; 
-   }
+  
+    }
    h1{
-       font-size: 2rem;
+       font-size: 3rem;
 
    }
    h2 {
