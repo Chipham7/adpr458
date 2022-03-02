@@ -1,12 +1,16 @@
 
 
   body {
-       background-color:rgb(206, 209, 212);
+    background-color:rgb(206, 209, 212);
        margin: 0 10%;
        font-family: Georgia, 'Times New Roman', Times, serif
-   }
+ 
+    }
+    .container{
+        color: aliceblue;
+    }
    header {
-       background-color: #3860aa;
+       background-color: #16294d;
        padding: 2rem;
        
        font-family: 'Chakra Petch', sans-serif; 
@@ -26,5 +30,16 @@
    }
    img {
     border-radius: 50%;
-    border: 5px solid #3860aa;
+    border: 5px solid #16294d;
+}
+#background-video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
