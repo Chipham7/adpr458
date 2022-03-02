@@ -8,9 +8,10 @@
     }
     .container{
         color: aliceblue;
+        background-color: #16294d;
     }
    header {
-       background-color: #16294d;
+       background-color: #345799;
        padding: 2rem;
        
        font-family: 'Chakra Petch', sans-serif; 
