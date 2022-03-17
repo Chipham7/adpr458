@@ -47,7 +47,6 @@ img{
 }
 /****** Lay Out*****/
 .container{
-    background-color: red;
 width: min(95%, 75rem);
 margin: 0 auto;
 display: grid;
@@ -57,22 +56,54 @@ grid-template-columns: repeat(12, 1fr);
 .container > *{
     grid-column: span 12;
 }
+.container-lg{
+width: min(100%, 100rem);
+margin: 0 auto;
+display: grid;
+gap: 1.5rem;
+grid-template-columns: repeat(12, 1fr);
+}
+.container-lg > *{
+    grid-column: span 12;
+}
+.portfolio{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+}
+.primary-color{
+    background-color: var(--primary-color);
+}
+.highlight-color{
+    background-color: var(--highlight-color);
+    padding: 3rem;
+    margin-top: 2rem;
+}
+.text-center{
+    text-align: center;
+}
 /* Desktop Layout */
 @media screen and (min-width: 40rem){
     .site-id {
         grid-column: 1 / span 6;
-        background-color: #033f5f;
+        
     }
     .menu {
         grid-column: 7 / span 6;
-        background-color: #2d7224;
+    
     }
     .company {
         grid-column: 1/ span 8;
-        background-color: rgb(42, 189, 28);
+        
     }
     .company-image {
         grid-column: 9/ span 4;
-        background-color: rgb(32, 20, 139);
+        
+    }
+    .portfolio{
+        display: grid;
+        gap:1.5rem;
+        grid-template-columns: repeat(5, 1fr);
     }
 }
