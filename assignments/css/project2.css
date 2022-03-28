@@ -13,7 +13,10 @@
 
 *{
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'EB Garamond', serif;
+    padding:0;
+    margin: 0;
 }
 body{
     margin: 0;
@@ -29,6 +32,7 @@ h1{
     padding: 2rem;
 }
 
+/*******search bar start******/
 
 .search_bar .input{
     border: 0;
@@ -38,8 +42,7 @@ h1{
 }
 
 .search_wrap{
-    width: 500px;
-    margin: 30px auto;
+  margin: 30px auto;
 }
 .search_bar .input:hover{
 background: #e7e5e5;
@@ -84,7 +87,15 @@ background: #e7e5e5;
     padding-right: 80px;
     
 }
+/*******search bar end******/
 
+section{
+    grid-column: span 12;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
 h2{
     font-size: 2rem;
     color: black;
@@ -104,25 +115,13 @@ img{
 }
 /****** Lay Out*****/
 .container{
-width: min(95%, 75rem);
+max-width: 500px ;
 margin: 0 auto;
-display: grid;
-gap: 1.5rem;
-grid-template-columns: repeat(12, 1fr);
+grid-column: span 12;
+align-items: center;
+justify-content: center;
 }
-.container > *{
-    grid-column: span 12;
-}
-.container-lg{
-width: min(100%, 100rem);
-margin: 0 auto;
-display: grid;
-gap: 1.5rem;
-grid-template-columns: repeat(12, 1fr);
-}
-.container-lg > *{
-    grid-column: span 12;
-}
+
 .portfolio{
     display: grid;
     gap: 1.5rem;
