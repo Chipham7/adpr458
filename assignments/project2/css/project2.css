@@ -25,6 +25,11 @@ body{
 header{
     background-color: #ffffff;
     display: flex;
+    position: fixed;
+    width:100% ;
+    justify-content: space-between;
+    padding: 20px;
+
 }
 
 h1{
@@ -92,10 +97,15 @@ background: #e7e5e5;
 h2{
     font-size: 2rem;
     color: black;
+    text-align: center;
 }
 h3{
     font-size: 1.5rem;
     color: black;
+}
+p{
+    text-align: center;
+
 }
 p, ul, ol{
     font-size: 1.25rem;
@@ -103,6 +113,7 @@ p, ul, ol{
     color: balck;
 
 }
+
 img{
     max-width: 100%;
 }
@@ -143,13 +154,42 @@ justify-content: center;
 }
 .text-center{
     text-align: center;
+    display: flex; 
 }
+.gallery {
+    padding: 20px;
+
+}
+.menu{
+    width: 25%;
+    
+   
+    
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    position:fixed;
+    list-style: none;
+    flex-flow: row wrap;
+    margin-right: 30rem;
+    padding: 0 ;
+   
+}
+.menu li{
+    margin: 0 0.5rem;
+    margin-top: 2rem;
+}
+
 /* Desktop Layout */
 @media screen and (min-width: 40rem){
+    /***test***
     .site-id {
         grid-column: 1 / span 6;
         
     }
+   
+
     .menu {
         grid-column: 7 / span 6;
     
