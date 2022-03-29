@@ -32,7 +32,7 @@ h1{
     padding: 2rem;
 }
 
-/*******search bar start******/
+/******* search bar start******/
 
 .search_bar .input{
     border: 0;
@@ -87,15 +87,7 @@ background: #e7e5e5;
     padding-right: 80px;
     
 }
-/*******search bar end******/
-
-section{
-    grid-column: span 12;
-    width:100%;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-}
+/******* search bar end******/
 h2{
     font-size: 2rem;
     color: black;
@@ -114,6 +106,7 @@ img{
     max-width: 100%;
 }
 /****** Lay Out*****/
+/****testt****
 .container{
 max-width: 500px ;
 margin: 0 auto;
@@ -121,7 +114,18 @@ grid-column: span 12;
 align-items: center;
 justify-content: center;
 }
+/**** test end****/
 
+.container{
+    width: min(95%, 75rem);
+    margin: 0 auto;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12, 1fr);
+    }
+    .container > *{
+        grid-column: span 12;
+    }
 .portfolio{
     display: grid;
     gap: 1.5rem;
