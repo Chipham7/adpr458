@@ -1,7 +1,7 @@
 :root {
     --primary-color:#ffffff;
     --secondary-color: #2565b4;
-    --neutral-grey: #dce1e4;
+    --neutral-grey: #F8F7F5;
     --neutral-light: #ffffff;
     --highlight-color: #b42525;
 
@@ -180,10 +180,44 @@ justify-content: center;
     margin: 0 0.5rem;
     margin-top: 2rem;
 }
+.container-1{
+    max-width: 1170px;
+    background-color: var(--neutral-grey);
+    margin:auto;
 
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+ul{
+list-style: none;
+}
+.footer{
+    background-color: var(--neutral-grey);
+    padding: 70px 0;
+}
+.footer-col{
+    width:  25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    font-weight: bolder;
+    color:#000000;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col 
+
+ /***test***
 /* Desktop Layout */
+/***test***
 @media screen and (min-width: 40rem){
-    /***test***
+   
     .site-id {
         grid-column: 1 / span 6;
         
