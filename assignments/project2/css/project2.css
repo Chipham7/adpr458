@@ -119,8 +119,9 @@ background: #e7e5e5;
 /******* search bar end******/
 h2{
     font-size: 2rem;
-    color: black;
+    color: #2565b4;
     text-align: center;
+    margin-top:  10rem;
 }
 h3{
     font-size: 1.5rem;
@@ -158,9 +159,15 @@ justify-content: center;
 .text-center{
     text-align: center;
     display: flex; 
+    
 }
 .gallery {
-    padding: 20px;
+    
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+
 
 }
 nav{
