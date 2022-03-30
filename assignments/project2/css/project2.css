@@ -121,8 +121,14 @@ h2{
     font-size: 4rem;
     color: black;
     text-align: center;
-    margin-bottom: rem;
 }
+/*
+.product-section{
+text-align: center;
+display: flex;
+flex-flow: row wrap;
+}
+/*/
 h3{
     font-size: 1.5rem;
     color: black;
@@ -150,6 +156,14 @@ align-items: center;
 justify-content: center;
 }
 
+section h2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 3rem 1rem 25rem;
+    padding:1rem;
+    margin-top: 10rem;
+    display: inline-block;
+}
 
 .container{
 
@@ -163,6 +177,22 @@ justify-content: center;
 .gallery {
     padding: 20px;
 
+}
+.products-section{
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 2rem 4rem;
+    }
+
+.description{
+    color: var(--secondary-color);
+    display: flex;
+    
+}
+.description:hover{
+    color: var(--secondary-color);
+    text-decoration: underline;
 }
 nav{
     width: 25%;
@@ -216,13 +246,7 @@ nav ul li a{
 ul{
 list-style: none;
 }
-.description{
-    color: var(--secondary-color);
-}
-.description:hover{
-    color: var(--secondary-color);
-    text-decoration: underline;
-}
+
 
 .footer{
     background-color: var(--neutral-grey);
