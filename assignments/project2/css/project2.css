@@ -188,7 +188,7 @@ justify-content: center;
 }
 .row{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
     
 }
 ul{
@@ -202,7 +202,7 @@ list-style: none;
     width:  25%;
     padding: 0 15px;
 }
-.footer-col h4{
+.footer-col h3{
     font-size: 18px;
     font-weight: bolder;
     color:#000000;
@@ -210,8 +210,18 @@ list-style: none;
     margin-bottom: 30px;
     font-weight: 500;
     position: relative;
+    
 }
-.footer-col 
+.footer-col h3::before{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom: -10px;
+    background-color: var(--secondary-color);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px; 
+}
 
  /***test***
 /* Desktop Layout */
