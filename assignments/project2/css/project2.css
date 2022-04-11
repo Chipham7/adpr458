@@ -257,6 +257,7 @@ list-style: none;
 .footer{
     background-color: var(--neutral-grey);
     padding: 70px 0;
+    margin: 2rem -10rem 10rem;
 }
 .footer-col{
     width:  25%;
