@@ -21,6 +21,7 @@
 body{
     margin: 0;
 }
+
 header{
     background-color: #ffffff;
     display: flex;
@@ -212,6 +213,8 @@ nav ul{
     flex-flow: row wrap;
     margin-right: 30rem;
     padding: 0 ;
+    font-family: 'Chakra Petch', sans-serif;
+font-family: 'EB Garamond', serif;
    
 }
 /*
