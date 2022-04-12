@@ -26,8 +26,9 @@
        font-size: 1.5rem;
    }
    h3 {
-       font-size:  1.25em; 
+       font-size: 1.25rem; 
        font-family: 'Times New Roman', Times, serif;
+
    }
    p{
        font-family: 'Times New Roman', Times, serif;
@@ -73,8 +74,8 @@ a:hover{
 }
 .container > * {
    grid-column: span 12;
-
 }
+
 
 /********* Navigation Using Flexbox *********/
 nav{

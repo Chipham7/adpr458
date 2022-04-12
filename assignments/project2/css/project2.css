@@ -8,9 +8,6 @@
 
 }
 
-
-
-
 *{
     box-sizing: border-box;
     font-family: 'Chakra Petch', sans-serif;
@@ -21,22 +18,31 @@
 body{
     margin: 0;
 }
-
+.logo{
+    align-items: center;
+    margin-top: 2rem;
+}
 header{
+    /*
+    grid-column: span 26;
+    grid-template-columns: repeat(26, 1fr);
+*/
     background-color: #ffffff;
     display: flex;
+    flex-grow: 1;
     position: fixed;
     width:100% ;
     justify-content: space-between;
-    padding: 20px;  
+    padding: 0 1rem;   
     border-bottom: 1px solid #2565b4;
-    margin: 0px -10px 5px -10px;
+    /* margin:   0rem -10rem -10rem; */
+    align-items: center;
 }
 
 h1{
     font-family: Garamond;
     text-align: center;
-     color: var(--secondary-color);
+     color: #000000;
     padding: 2rem;
 }
 .button{
@@ -75,8 +81,8 @@ background: #e7e5e5;
 
 .search_wrap .search_box{
     position:relative;
-    width: 500px;
-    height: 60px;
+    width: 460px;
+    height: 44px;
 }
 .search_wrap .search_box .input{
     position: absolute;
@@ -149,14 +155,29 @@ img{
 }
 /****** Lay Out*****/
 
+.grid{
+   
+    margin: 0 auto;
+    overflow: none;
 
+}
 .container{
-width: min(95%,75rem);
+    width: min(95%,75rem);
 margin: 0 auto;
+padding-top: 10rem;
 align-items: center;
 justify-content: center;
+display: grid;
+grid-template-columns: repeat(25, 1fr);
 }
-
+.container > * {
+    grid-column: span 25;
+}
+.image-1{
+    grid-column: 1/ span 26;
+    padding: 1rem 4rem;
+    background-color: #2565b4;
+}
 section h2{
     font-size: 2rem;
     text-align: center;
@@ -165,11 +186,6 @@ section h2{
     margin-top: 10rem;
     display: inline-block;
 }
-
-.container{
-
-    gap: 1.5rem;
-    }
     
 .text-center{
     text-align: center;
@@ -204,6 +220,9 @@ section h2{
 nav{
     width: 25%;
     text-decoration: none;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+
 }
 nav ul{
     display: flex;
@@ -334,7 +353,7 @@ list-style: none;
 
  /***test***
 /* Desktop Layout */
-/***test***
+
 @media screen and (min-width: 40rem){
    
     .site-id {
