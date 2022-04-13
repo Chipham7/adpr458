@@ -173,7 +173,7 @@ img{
 
 }
 .container{
-    /* width: min(95%,75rem); */
+    
 display: grid;
 grid-template-columns: repeat(25, 1fr);
 margin: 0 auto;
@@ -220,7 +220,7 @@ margin: 1rem auto;
 }
 
 /**promotion section**/
-.dilivery{
+.delivery{
     display: grid;
     grid-template-columns: repeat(25, 1fr);
 }
@@ -256,8 +256,49 @@ border-radius: 0.5rem;
 box-shadow: 0 .125rem .5rem rgba(0,0,0, 15)  ;
 display: inline-block;
 transition: background-color 0.25s ease;
-margin: 1rem auto;
 }
+.button-delivery:hover{
+    background-color:#2d7ada;
+}
+/** promotion section end here **/
+
+/** interactive section **/
+.interactive{
+display: grid;
+grid-template-columns: repeat(25, 1fr);
+}
+.interactive > *{
+    grid-column: span 25 ;
+}
+.interactive-image, .description{
+    grid-row: 1/2;
+}
+.interactive-image{
+    grid-column: 13/span 10;
+}
+.discription{
+ grid-column: 1/span 11;
+background-color: var(--neutral-grey);
+ width: 497px;
+margin: 17rem;
+}
+.button-interactive{
+background-color: var(--secondary-color);
+color: #ffffff;
+text-align: center;
+text-decoration: none;
+padding:1rem 1.5rem ;
+border-radius: 0.5rem; 
+box-shadow: 0 .125rem .5rem rgba(0,0,0, 15)  ;
+display: inline-block;
+transition: background-color 0.25s ease;
+margin: 2rem 10rem;
+}
+.button-interactive:hover{
+    background-color:#2d7ada;
+}
+
+
 
 
 /* section h2{
