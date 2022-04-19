@@ -110,7 +110,7 @@ img{
 display: grid;
 grid-template-columns: repeat(25, 1fr);
 margin: 0 auto;
-padding-top: 10rem;
+padding-top: 4rem;
 align-items: center;
 justify-content: center;
 }
