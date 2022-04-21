@@ -86,6 +86,11 @@ transition: background-color 0.25s ease;
 .button:hover{
     background-color:none;
 }
+.regular{
+    margin-right: 3rem;
+    margin-top: 5rem;
+    background-color: var(--neutral-white);
+}
 
 /*
 .product-section{
@@ -198,52 +203,44 @@ margin: 3rem 2rem 15rem;
 }
 .three-image{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    background-color: var(--neutral-light);
 }
 .three-image >*{
-    grid-column: span 5;
+    grid-column: span 12;
 }
-/* .button-delivery{
-background-color: var(--secondary-color);
-color: #ffffff;
-text-align: center;
-text-decoration: none;
-padding:1rem 1.5rem ;
-border-radius: 0.5rem; 
-box-shadow: 0 .125rem .5rem rgba(0,0,0, 15)  ;
-display: inline-block;
-transition: background-color 0.25s ease;
-}
-.button-delivery:hover{
-    background-color:#2d7ada;
-} */
-/** promotion section end here **/
-
-/** interactive section **/
 .interactive{
-display: grid;
-grid-template-columns: repeat(25, 1fr);
-background-color: var(--neutral-light);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: var(--neutral-light);
 
 }
 .interactive > *{
-    grid-column: span 25 ;
+    grid-column: span 12 ;
+}
+.interactive-image, .description{
+    grid-row: 1/2;
+}
+.interactive-image img{
+    border-radius: 2rem;
+    border: 3px solid;
+    border-color:var(--midlight-color);
 }
 .titile-2{
-    font-size: 4rem;
-    margin: 10rem 7rem;
-    text-align: right;
-  }
+font-size: 5rem;
+margin: 8rem 8rem 2rem;
+  margin-left: 8rem;
+text-align: right;
+margin-left: 24rem;
 }
-/* .interactive-image, .description{
-    grid-row: 1/2;
-} */
-/* .interactive-image img {
-    grid-column: 1/span 10;
+
+
+img .bodyproduct {
+    /* grid-column: 1/span 10;
     max-width: 46%;
     margin-top: 6rem;
-    margin-left: 9rem;
-    border-radius: 4.5rem; */
+    margin-left: 9rem; */
+    border-radius: 4.5rem;
 }
 /* .interactive-image .border{
     font-size: 5rem ;
@@ -257,13 +254,12 @@ max-width: 46%;
 margin-top: 7rem;
 } */
 
-}
+
 .discription{
- grid-column: 1/span 11;
-background-color: var(--neutral-grey);
- width: 497px;
-margin: 17rem;
+    margin-top: -47,rem;
+    margin-left: 19rem;
 }
+
 .button-interactive{
 background-color: var(--secondary-color);
 color: #ffffff;
@@ -281,22 +277,22 @@ margin: 2rem 10rem;
 }
 
 .interactive-image{
-    background: url(/images/greatbodyrelief.png);
-    background-repeat: no-repeat;
-    height: 66%;
-    width: 50%;
-    margin: 20% 10%;
-    background-size: 61%;
+   width:58%;
+    margin-top: 0%;
+    grid-column: 4 /span 7;
+    
 }
-
+.interactive-image .button .regular{
+grid-row: 1/2;
+}
 
 .interactive-right {
-    background: url(/images/kravebeautygbr3.png);
-    background-repeat: no-repeat;
-    height: 80%;
-    background-size: cover;
-}
 
+   margin-top: 2rem;
+}
+.right{
+    margin-top: 27rem;
+}
 
 /* section h2{
     font-size: 2rem;
@@ -327,17 +323,6 @@ margin: 2rem 10rem;
     padding: 2rem 4rem;
     }
 
-.description{
-    color: var(--secondary-color);
-    display: flex;
-    justify-content: center;
-    
-}
-.description:hover{
-    color: var(--secondary-color);
-    text-decoration: underline;
-    justify-content: center;
-}
 nav{
     text-decoration: none;
     margin-bottom: 1.5rem;
