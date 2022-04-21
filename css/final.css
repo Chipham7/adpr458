@@ -73,8 +73,8 @@ header{
 
 .button{
 margin: 2rem 30rem 2rem 30rem;
-background-color: var(--secondary-color);
-color: #ffffff;
+background-color: var(--neutral-white);
+color: var(--regular-color);
 text-align: center;
 text-decoration: none;
 padding:1rem 1.5rem ;
@@ -84,7 +84,7 @@ display: inline-block;
 transition: background-color 0.25s ease;
 }
 .button:hover{
-    background-color:#2d7ada;
+    background-color:none;
 }
 
 /*
@@ -165,12 +165,11 @@ margin: 1rem auto;
 
 }
 .delivery-image, .frame{
-    text-align: center;
     grid-row: 1/2;
 }
 .delivery-image {
 grid-column: 15/ span 10;
-margin: 3rem 2rem;
+margin: 3rem 2rem 15rem;
 }
 
 .delivery-image img {
@@ -180,11 +179,11 @@ margin: 3rem 2rem;
 .frame{
     grid-column:1/span 9 ;
     width: 143%;
-    margin: 4rem;
+    margin: 10rem 6rem;
 }
 
 .frame h2 {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .frame p {
@@ -197,7 +196,14 @@ margin: 3rem 2rem;
     color: var(--primary-color);
     text-align:left;
 }
-.button-delivery{
+.three-image{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.three-image >*{
+    grid-column: span 5;
+}
+/* .button-delivery{
 background-color: var(--secondary-color);
 color: #ffffff;
 text-align: center;
@@ -210,7 +216,7 @@ transition: background-color 0.25s ease;
 }
 .button-delivery:hover{
     background-color:#2d7ada;
-}
+} */
 /** promotion section end here **/
 
 /** interactive section **/
@@ -223,17 +229,23 @@ background-color: var(--neutral-light);
 .interactive > *{
     grid-column: span 25 ;
 }
+.titile-2{
+    font-size: 4rem;
+    margin: 10rem 7rem;
+    text-align: right;
+  }
+}
 /* .interactive-image, .description{
     grid-row: 1/2;
 } */
-.interactive-image img {
+/* .interactive-image img {
     grid-column: 1/span 10;
     max-width: 46%;
     margin-top: 6rem;
     margin-left: 9rem;
-    border-radius: 4.5rem;
+    border-radius: 4.5rem; */
 }
-.interactive-image .border{
+/* .interactive-image .border{
     font-size: 5rem ;
     grid-column: 15/ span 4;
 }
@@ -243,9 +255,7 @@ border-radius: 4.5rem;
 grid-column: 14/ span 5;
 max-width: 46%;
 margin-top: 7rem;
-}
-.box{
-background-color: var(--neutral-white);
+} */
 
 }
 .discription{
@@ -270,7 +280,22 @@ margin: 2rem 10rem;
     background-color:#2d7ada;
 }
 
+.interactive-image{
+    background: url(/images/greatbodyrelief.png);
+    background-repeat: no-repeat;
+    height: 66%;
+    width: 50%;
+    margin: 20% 10%;
+    background-size: 61%;
+}
 
+
+.interactive-right {
+    background: url(/images/kravebeautygbr3.png);
+    background-repeat: no-repeat;
+    height: 80%;
+    background-size: cover;
+}
 
 
 /* section h2{
