@@ -95,7 +95,7 @@ transition: background-color 0.25s ease;
 }
 .left{
     margin: -2rem;
-    margin-top: -8rem;
+    margin-top: -15rem;
 }
 .right{
     margin-top: 0rem;
@@ -222,14 +222,9 @@ margin: 3rem 2rem 15rem;
     color: var(--primary-color);
     text-align:left;
 }
-/* .three-image{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+.three-image{
     background-color: var(--neutral-light);
 }
-.three-image >*{
-    grid-column: span 12;
-} */
 .interactive{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -319,8 +314,9 @@ margin: 2rem 10rem;
     grid-row: 1 / 2;
 }
 .facialoil{
-   grid-column: 3/span 4
-
+   grid-column: 3/span 4;
+   margin-top: 1rem;
+   margin-bottom: 9rem;
 }
 
    
