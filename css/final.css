@@ -70,6 +70,7 @@ header{
     align-items: center;
 }
 
+/****button****/
 
 .button{
 margin: 2rem 30rem 2rem 30rem;
@@ -78,7 +79,6 @@ color: var(--regular-color);
 text-align: center;
 text-decoration: none;
 padding:1rem 1.5rem ;
-border-radius: 0.5rem; 
 box-shadow: 0 .125rem .5rem rgba(0,0,0, 15)  ;
 display: inline-block;
 transition: background-color 0.25s ease;
@@ -87,10 +87,31 @@ transition: background-color 0.25s ease;
     background-color:none;
 }
 .regular{
-    margin-right: 3rem;
-    margin-top: 5rem;
+    margin-left: -3rem;
+    margin-top: -2rem;
     background-color: var(--neutral-white);
+    width: 11rem;
+    align-self: center;
 }
+.left{
+    margin: -2rem;
+    margin-top: -8rem;
+}
+.right{
+    margin-top: 0rem;
+    align-self: center;
+    width: 12rem;
+    margin-left: -36rem;
+}
+
+
+
+
+
+
+
+
+
 
 /*
 .product-section{
@@ -201,14 +222,14 @@ margin: 3rem 2rem 15rem;
     color: var(--primary-color);
     text-align:left;
 }
-.three-image{
+/* .three-image{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     background-color: var(--neutral-light);
 }
 .three-image >*{
     grid-column: span 12;
-}
+} */
 .interactive{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -218,14 +239,24 @@ margin: 3rem 2rem 15rem;
 .interactive > *{
     grid-column: span 12 ;
 }
-.interactive-image, .description{
-    grid-row: 1/2;
+.interactive-image{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
 }
+.interactive-image >*{
+    grid-column: span 12;
+}
+
 .interactive-image img{
     border-radius: 2rem;
     border: 3px solid;
     border-color:var(--midlight-color);
+   
 }
+.bodyproduct{
+    grid-column: 3/ span 4; 
+}
+
 .titile-2{
 font-size: 5rem;
 margin: 8rem 8rem 2rem;
@@ -233,7 +264,9 @@ margin: 8rem 8rem 2rem;
 text-align: right;
 margin-left: 24rem;
 }
-
+.moisturizer{
+    grid-column: 7/ span 4;
+}
 
 img .bodyproduct {
     /* grid-column: 1/span 10;
@@ -275,25 +308,26 @@ margin: 2rem 10rem;
 .button-interactive:hover{
     background-color:#2d7ada;
 }
-
-.interactive-image{
-   width:58%;
-    margin-top: 0%;
-    grid-column: 4 /span 7;
-    
-}
-.interactive-image .button .regular{
-grid-row: 1/2;
-}
-
+.bodyproduct, .button, .regular{
+    grid-row: 1/2;
+} 
 .interactive-right {
 
    margin-top: 2rem;
 }
-.right{
-    margin-top: 27rem;
+.moisturizer, .right{
+    grid-row: 1 / 2;
+}
+.facialoil{
+   grid-column: 3/span 4
+
 }
 
+   
+
+.facialoil, .button, .regular, .left{
+    grid-row: 1/2;
+}
 /* section h2{
     font-size: 2rem;
     text-align: center;
@@ -304,18 +338,8 @@ grid-row: 1/2;
 }
      */
 
-.recipes{
-    text-align: center;
-    display: flex; 
-}
-.gallery {
-    padding: 20px;
 
-}
-.gallery-1{
-    width: 27.5%;
-    padding: 1rem;
-}
+
 .products-section{
     display:flex;
     justify-content: center;
