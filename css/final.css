@@ -5,12 +5,8 @@
     --neutral-white:#F6F5FF;
     --neutral-light: #FDF5E9;
     --highlight-color: #2d7ada;
-    --regular-color:black;
-    
-
-
+    --regular-color:black;   
 }
-
 *{
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -34,16 +30,11 @@ h2{
 }
 h3{
     font-family: 'PT Serif', serif;
-    text-align: center;
     font-size: 2rem;
     /* padding: 1rem; */
     color: var(--regular-color);
 }
 
-p{
-    text-align: center;
-    /* padding: 2rem; */
-}
 p, ul, ol{
     font-size: 1rem;
     line-height: 1.25rem;
@@ -104,22 +95,6 @@ transition: background-color 0.25s ease;
     margin-left: -36rem;
 }
 
-
-
-
-
-
-
-
-
-
-/*
-.product-section{
-text-align: center;
-display: flex;
-flex-flow: row wrap;
-}
-/*/
 img{
     max-width: 100%;
 }
@@ -159,27 +134,13 @@ justify-content: center;
     padding: 9rem 7rem 10rem 5rem;
     background-color: black; 
 }
+.image2{
+    margin-top: -1rem;
+}
 .white-frame{
     grid-column: 9/span 8;
     text-align: center;
 }
-
-.button-container{
-background-color: var(--secondary-color);
-color: #ffffff;
-text-align: center;
-text-decoration: none;
-padding:1rem 1.5rem ;
-border-radius: 0.5rem; 
-box-shadow: 0 .125rem .5rem rgba(0,0,0, 15)  ;
-display: inline-block;
-transition: background-color 0.25s ease;
-margin: 1rem auto;
-}
-.button-container:hover{
-    background-color:#2d7ada;
-}
-
 /**promotion section**/
 .delivery{
     display: grid;
@@ -231,6 +192,9 @@ margin: 3rem 2rem 15rem;
     background-color: var(--neutral-light);
 
 }
+.pink{
+    margin-top:-9rem;
+}
 .interactive > *{
     grid-column: span 12 ;
 }
@@ -251,7 +215,52 @@ margin: 3rem 2rem 15rem;
 .bodyproduct{
     grid-column: 3/ span 4; 
 }
+.box img{
+    grid-column: 1/ span 12;
+    border: none;
+    border-radius: 0rem;
+  }
+  .pink1{
 
+    width: 33rem;
+    background-color:var(--neutral-light);
+    height: 14rem;
+    align-self: center;
+    margin-left: -49rem;
+    border-radius: 2rem;
+    border: 0.125rem solid var(--regular-color);
+    padding:2.5rem;
+    margin-top: -117rem;
+    text-align: left;
+   
+  }
+  .text{
+      text-align: left;
+  }
+  .blue{
+        margin-left: -83rem;
+        margin-top: -145rem;
+        background-color: var(--midlight-color);
+        width: 33rem;
+        padding: 2rem;
+  }
+  .down{
+    margin-top: 34rem;
+    width: 33rem;
+    height: 16rem;
+    margin-left: -71rem;
+    padding: 1rem 2rem;
+  }
+  
+  .box, .pink1{
+      grid-row: 1/2;
+  }
+.neon{
+    background-color: var(--primary-color);
+    margin-top: 138rem;
+    height: 19rem;
+    width: 37rem;
+}
 .titile-2{
 font-size: 5rem;
 margin: 8rem 8rem 2rem;
@@ -264,29 +273,14 @@ margin-left: 24rem;
 }
 
 img .bodyproduct {
-    /* grid-column: 1/span 10;
-    max-width: 46%;
-    margin-top: 6rem;
-    margin-left: 9rem; */
     border-radius: 4.5rem;
 }
-/* .interactive-image .border{
-    font-size: 5rem ;
-    grid-column: 15/ span 4;
-}
-.interactive-right img{
- margin-left: 40rem;
-border-radius: 4.5rem;
-grid-column: 14/ span 5;
-max-width: 46%;
-margin-top: 7rem;
-} */
-
 
 .discription{
     margin-top: -47,rem;
     margin-left: 19rem;
 }
+
 
 .button-interactive{
 background-color: var(--secondary-color);
@@ -319,22 +313,9 @@ margin: 2rem 10rem;
    margin-bottom: 9rem;
 }
 
-   
-
 .facialoil, .button, .regular, .left{
     grid-row: 1/2;
 }
-/* section h2{
-    font-size: 2rem;
-    text-align: center;
-    margin: 0 3rem 1rem 25rem;
-    padding:1rem;
-    margin-top: 10rem;
-    display: inline-block;
-}
-     */
-
-
 
 .products-section{
     display:flex;
@@ -366,14 +347,6 @@ nav ul li a{
     text-align: center;
     font-family:'Gill Sans', sans-serif ;
 }
-/*
-.menu li{
-    margin: 0 0.5rem;
-    margin-top: 2rem;
-    text-decoration: none; 
-}
-/***/
-
 
 .row{
     display: flex;
@@ -383,7 +356,6 @@ nav ul li a{
     color: var(--primary-color);
 
 }
-
 
 .footer{
     font-family: 'PT Serif', serif;
@@ -424,12 +396,11 @@ nav ul li a{
     text-decoration-color: var(--primary-color);
 }
 
-
-
 .copy-right {
     color: var(--primary-color);
     font-size: 1.25rem;
     padding-bottom: 0.5rem;
+    text-align: center;
 }
 
 /* responsive
@@ -441,8 +412,6 @@ nav ul li a{
      }
 
 }
-    
-
  /***test***
 /* Desktop Layout */
 /* 
