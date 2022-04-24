@@ -138,6 +138,9 @@ justify-content: center;
 .image2{
     margin-bottom: -1rem;
 }
+.image3{
+    margin-bottom: 8rem;
+}
 .white-frame{
     grid-column: 9/span 8;
     text-align: center;
@@ -196,6 +199,10 @@ margin: 3rem 2rem 15rem;
 .pink{
     margin-top:-9rem;
 }
+.green{
+    background-color: var(--light-color);
+    margin-top: -19rem;
+}
 .interactive > *{
     grid-column: span 12 ;
 }
@@ -235,10 +242,19 @@ margin: 3rem 2rem 15rem;
     text-align: left;
    
   }
+.yellowbox{
+    margin-left: -56rem;
+    margin-top: 18.5rem;
+    width: 29rem;
+}
+
   .blue1{
       margin-top: -24rem;
       margin-left: -9rem;
       background-color: var(--neutral-white);
+  }
+  .oil{
+      margin-left: 4rem;
   }
   /* .barrierre, .blue2{
       .
@@ -246,6 +262,12 @@ margin: 3rem 2rem 15rem;
   .blue2{
       margin-top: -20rem;
   }
+.blue3{
+    margin-left: -51rem;
+    margin-top: 69rem;
+    background-color: var(--midlight-color);
+    border: .125rem solid var(--regular-color);
+}
   .text{
       text-align: left;
   }
@@ -280,6 +302,25 @@ margin: 3rem 2rem 15rem;
   .box, .pink1{
       grid-row: 1/2;
   }
+.aha{
+    border-radius: 3rem;
+    width: 19rem;
+    margin-left: 24rem;
+    margin-top: 27rem;
+        
+}
+.aha1{
+    margin-left: -32rem;
+    margin-top: 60rem;
+    width: 52rem;
+    margin-bottom: 24rem;
+}
+
+.aha3{
+    margin-top: -47rem;
+    width: 14rem;
+    margin-left: 17rem;
+}
 .neon{
     background-color: var(--light-color);
     margin-top: 138rem;
@@ -303,6 +344,10 @@ margin-top: 20rem;
   width: 30rem;
   height: 14rem;
   margin-left: -40rem;
+}
+.bottom1{
+    margin-top: -50rem;
+    margin-left: -53rem;
 }
 
 
