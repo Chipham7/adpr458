@@ -1,9 +1,10 @@
 :root {
     --primary-color:#CBFE00;
-    --midlight-color:#73A8B8;
+    --light-color: #E4F993;
     --secondary-color:#CEA5AD;
     --neutral-white:#F6F5FF;
     --neutral-light: #FDF5E9;
+    --midlight-color:#73A8B8;
     --highlight-color: #2d7ada;
     --regular-color:black;   
 }
@@ -280,7 +281,7 @@ margin: 3rem 2rem 15rem;
       grid-row: 1/2;
   }
 .neon{
-    background-color: var(--primary-color);
+    background-color: var(--light-color);
     margin-top: 138rem;
     height: 19rem;
     width: 37rem;
