@@ -287,22 +287,23 @@ margin: 3rem 2rem 15rem;
 }
 .barrierre{
     grid-column: 6/ span 4;
-    margin-top: 6rem;
-    margin-bottom: 21rem;
+    margin-top: 11rem;
+    margin-bottom: 22rem;
 }
 .top{
-    margin-top: -71rem;
+    margin-top: -67rem;
     margin-bottom: -25rem;
-    width: 33rem;
-    height: 13rem;    
+    width: 39rem;
+    height: 17rem;    
 }
 .bottom{
-    margin-top: 18rem;
-    background-color: var(--neutral-light);
-    width: 30rem;
-    height: 14rem;
-    margin-left: -40rem;
+margin-top: 20rem;
+  background-color: var(--neutral-light);
+  width: 30rem;
+  height: 14rem;
+  margin-left: -40rem;
 }
+
 
 .titile-2{ 
 font-size: 5rem;
