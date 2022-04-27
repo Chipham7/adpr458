@@ -111,7 +111,6 @@ img{
 display: grid;
 grid-template-columns: repeat(25, 1fr);
 margin: 0 auto;
-align-items: center;
 justify-content: center;
 }
 
@@ -124,6 +123,8 @@ justify-content: center;
 .color {
     color: #CBFE00;
     font-size: 5rem;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
 }
 
 .image1, .white-frame{
@@ -132,8 +133,9 @@ justify-content: center;
 }
 .image1{
     grid-column: 1/ span 25 ;
-    padding: 9rem 7rem 10rem 5rem;
+    /* padding: 9rem 7rem 10rem 5rem; */
     background-color: black; 
+    margin-top: -26rem;
 }
 .image2{
     margin-bottom: -1rem;
@@ -164,13 +166,13 @@ margin: 3rem 2rem 15rem;
 }
 
 .delivery-image img {
-    margin-top: 12rem;
+    margin-top: 11rem;
     border-radius: 2.5rem;
 }
 .frame{
     grid-column:1/span 9 ;
-    width: 143%;
-    margin: 10rem 6rem;
+    width: 161%;
+    margin: 4rem 6rem;
 }
 
 .frame h2 {
@@ -180,6 +182,7 @@ margin: 3rem 2rem 15rem;
 .frame p {
     font-size: 2rem;
     line-height: 2rem;
+    width: 77%;
 }
 
 .text-adjust{
@@ -244,7 +247,7 @@ margin: 3rem 2rem 15rem;
   }
 .yellowbox{
     margin-left: -56rem;
-    margin-top: 18.5rem;
+    margin-top: 9.5rem;
     width: 29rem;
 }
 
@@ -311,10 +314,11 @@ margin: 3rem 2rem 15rem;
 }
 .aha1{
     margin-left: -32rem;
-    margin-top: 60rem;
+    margin-top: 64rem;
     width: 52rem;
     margin-bottom: 24rem;
-}
+ }
+
 
 .aha3{
     margin-top: -47rem;
@@ -453,7 +457,7 @@ nav ul li a{
 }
 
 .footer-col{
-    width:  18%;
+    width: 100%;
     padding: 3rem 3rem 2rem 1rem;
 }
 
@@ -493,25 +497,22 @@ nav ul li a{
     text-align: center;
 }
 
-/* responsive
-@media(min-width:40rem){
-    .footer-col{
+/* responsive */
+@media screen and (max-width:40rem) {
+     .footer-col{
         width: 50%;
         margin-bottom: 30px;
-
+        background-color: blue;
      }
+}
+.titile-2{
+    margin-left: 1rem;
+    margin: 3rem 1rem 3rem;
+    font-size: 3rem;
+
 
 }
- /***test***
-/* Desktop Layout */
-/* 
-@media screen and (min-width: 40rem){
-   
-    .site-id {
-        grid-column: 1 / span 6;
-        
-    }
-   
+
 
     /* .menu {
         grid-column: 7 / span 6; */
@@ -524,8 +525,4 @@ nav ul li a{
         grid-column: 9/ span 4;
         
     }
-    .portfolio{
-        display: grid;
-        gap:1.5rem;
-        grid-template-columns: repeat(5, 1fr);
-    } 
+ 
