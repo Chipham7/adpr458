@@ -504,14 +504,16 @@ nav ul li a{
         margin-bottom: 30px;
         background-color: blue;
      }
+     .titile-2{
+        margin-left: 1rem;
+        margin: 3rem 1rem 3rem;
+        font-size: 3rem;
+        width: 30% 
+     }
 }
-.titile-2{
-    margin-left: 1rem;
-    margin: 3rem 1rem 3rem;
-    font-size: 3rem;
 
 
-}
+
 
 
     /* .menu {
