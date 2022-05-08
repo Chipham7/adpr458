@@ -75,9 +75,9 @@ box-shadow: 0 .125rem .5rem rgba(0,0,0, 15)  ;
 display: inline-block;
 transition: background-color 0.25s ease;
 }
-.button:hover{
+/* .button:hover{
     background-color:none;
-}
+} */
 .regular{
     margin-left: -3rem;
     margin-top: -2rem;
@@ -100,12 +100,8 @@ img{
     max-width: 100%;
 }
 /****** Lay Out*****/
-
 .grid{
-   
     margin: 0 auto;
-    overflow: none;
-
 }
 .container{  
 display: grid;
@@ -371,7 +367,7 @@ img .bodyproduct {
 }
 
 .discription{
-    margin-top: -47,rem;
+    margin-top: -47rem;
     margin-left: 19rem;
 }
 
