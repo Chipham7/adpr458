@@ -586,14 +586,14 @@ margin: 2rem 10rem;
     }
     .header .navbar{
         position:absolute;
-        top:100%; right:0;
+        top:100%; right:-100%;
         background: var(--light-color);
         width:30rem;
         height: calc(100vh - 9.5rem);
 
     }
     .header .navbar .active{
-        right:0;
+        right:0%;
     }
     .header .navbar a{
         display: block;
