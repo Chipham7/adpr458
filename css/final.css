@@ -194,7 +194,7 @@ justify-content: center;
     margin-bottom: 8rem;
 }
 .white-frame{
-    grid-column: 9/span 8;
+    grid-column: 3/span 8;
     text-align: center;
 }
 /**promotion section**/
