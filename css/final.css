@@ -352,6 +352,7 @@ margin: 3rem 2rem 15rem;
     margin-left: -71rem;
     padding: 1rem 2rem;
   }
+
   
   .box, .pink1{
       grid-row: 1/2;
@@ -373,7 +374,7 @@ margin: 3rem 2rem 15rem;
 
 .aha3{
     margin-top: -47rem;
-    width: 14rem;
+    width: 180rem;
     margin-left: 17rem;
 }
 .neon{
@@ -651,6 +652,12 @@ margin: 2rem 10rem;
     margin-top: 37rem;
     margin-left: -74rem;
   }
+.yellowbox{
+    margin-left: -38rem;
+}
+.down1{
+    margin-top: 2rem;
+}
 }
 
 
