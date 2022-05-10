@@ -510,13 +510,14 @@ margin: 2rem 10rem;
     list-style: none;
     padding: 0;
     margin: 0;
-    
+
 } 
 .primary-navigation a{
     text-decoration: none;
 }
 .primary-navigation a > [aria-hidden="true"]{
 font-weight: 700;
+margin-inline-end: 0.75em;
 
 
 }
@@ -699,9 +700,16 @@ font-weight: 700;
     margin-top: 42rem;
 }
 
-
-
 }
 
+@media (max-width: 35em){
+    .primary-navigation{
+        position:fixed;
+        inset: 0 0 0 66%; 
+        flex-direction: column;
+        padding: min(50vh, 28rem) 2rem;
 
+        background: var(--light-color);
+    } 
+}
  
