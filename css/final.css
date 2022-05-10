@@ -287,7 +287,7 @@ margin: 3rem 2rem 15rem;
     background-color:var(--neutral-light);
     height: 14rem;
     align-self: center;
-    margin-left: -49rem;
+    /* margin-left: -49rem; */
     border-radius: 2rem;
     border: 0.125rem solid var(--regular-color);
     padding:2.5rem;
@@ -302,9 +302,10 @@ margin: 3rem 2rem 15rem;
 }
 
   .blue1{
-      margin-top: -24rem;
-      margin-left: -9rem;
-      background-color: var(--neutral-white);
+        margin-top: -26rem;
+        margin-left: 40rem;
+        background-color: var(--neutral-white);
+        grid-column: 1 / span 3;
   }
   .oil{
       margin-left: 4rem;
@@ -382,22 +383,24 @@ margin: 3rem 2rem 15rem;
     width: 37rem;
 }
 .barrierre{
-    grid-column: 6/ span 4;
+    grid-column: 5/ span 6;
     margin-top: 11rem;
     margin-bottom: 22rem;
 }
 .top{
-    margin-top: -67rem;
-    margin-bottom: -25rem;
+    margin-top: -43rem;
+    margin-bottom: 1rem;
     width: 39rem;
-    height: 17rem;    
+    height: 17rem;
+    margin-left: 7rem;
+    grid-column: 1/ span 5;  
 }
 .bottom{
-margin-top: 20rem;
-  background-color: var(--neutral-light);
-  width: 30rem;
-  height: 14rem;
-  margin-left: -40rem;
+    margin-top: 31rem;
+    background-color: var(--neutral-light);
+    width: 30rem;
+    height: 14rem;
+    margin-left: -39rem;
 }
 .bottom1{
     margin-top: -50rem;
