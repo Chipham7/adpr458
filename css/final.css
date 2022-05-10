@@ -159,13 +159,13 @@ img{
 }
 .container{  
 display: grid;
-grid-template-columns: repeat(25, 1fr);
+grid-template-columns: repeat(12, 1fr);
 margin: 0 auto;
 justify-content: center;
 }
 
 .container > * {
-    grid-column: span 25;
+    grid-column: span 12;
 }
 .titileimage{
     max-width: 70%;
