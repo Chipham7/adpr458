@@ -28,6 +28,7 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb{
     background: var(--midlight-color); 
     border-radius: 5rem;
+    
 }   
 body{
     background: var(--neutral-light);
@@ -220,8 +221,9 @@ margin: 3rem 2rem 15rem;
 }
 .frame{
     grid-column:1/span 9 ;
-    width: 161%;
+    width: 150%;
     margin: 4rem 6rem;
+    display: inherit;
 }
 
 .frame h2 {
@@ -571,9 +573,15 @@ margin: 2rem 10rem;
     img{
         max-width: 161%;
     }
-    .delivery-image img{
-        margin: 4rem 0rem 0.5rem -47rem;
+    .delivery {
+        display: grid;
+        grid-template-columns: repeat(25, 1fr);
     }
+     .delivery > * {
+            grid-column: 2/ span 15 ;
+        
+    }
+
     /* .text-adjust{
         margin-top: 30rem;
     } */
@@ -586,14 +594,14 @@ margin: 2rem 10rem;
     }
     .header .navbar{
         position:absolute;
-        top:100%; right:-100%;
+        top:100%; right: -100%;
         background: var(--light-color);
         width:30rem;
         height: calc(100vh - 9.5rem);
 
     }
     .header .navbar .active{
-        right:0%;
+        right: 0;
     }
     .header .navbar a{
         display: block;
@@ -602,6 +610,17 @@ margin: 2rem 10rem;
         font-size: 2rem;
         color:var(--regular-color);
     }
+  /* .interactive-image .button .regular{
+      grid-column: 3/ span 4;
+  } */
+  .three-image{
+      display: grid;
+  }
+  
+.mobile{
+      align-items: center;
+  }
+  
 }
 
 
