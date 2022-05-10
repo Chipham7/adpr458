@@ -506,6 +506,9 @@ margin: 2rem 10rem;
     align-items: center;
     justify-content: space-between;
 }
+.mobile-nav-toggle{
+    display: none;
+}
 .primary-navigation {
     list-style: none;
     padding: 0;
@@ -705,11 +708,27 @@ margin-inline-end: 0.75em;
 @media (max-width: 35em){
     .primary-navigation{
         position:fixed;
-        inset: 0 0 0 66%; 
+        inset: 0 0 0 50%; 
         flex-direction: column;
         padding: min(50vh, 28rem) 2rem;
-
+        z-index: 1000;
         background: var(--light-color);
+        transform: translateX(100%);
     } 
+    .primary-navigation [data-visible="true"] {
+        transform: translateX(0%);
+    }
+    
+    .mobile-nav-toggle{
+        display: block;
+        position:absolute;
+        background: url("/images/threeline.png");
+        background-repeat: no-repeat;
+        width: 37%;
+        scale: 8%;
+        aspect-ratio: 1;
+        top:-8rem;
+        right: -8rem;
+        z-index: 9999;
+    }
 }
- 
