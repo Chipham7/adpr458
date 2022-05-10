@@ -223,7 +223,6 @@ margin: 3rem 2rem 15rem;
     grid-column:1/span 9 ;
     width: 150%;
     margin: 4rem 6rem;
-    display: inherit;
 }
 
 .frame h2 {
@@ -586,7 +585,7 @@ margin: 2rem 10rem;
         margin-top: 30rem;
     } */
     .frame {
-        margin-top:44rem;
+        margin-top:75rem;
     }
     #menu-btn{
         display: inline-block;
@@ -616,11 +615,19 @@ margin: 2rem 10rem;
   .three-image{
       display: grid;
   }
-  
 .mobile{
-      align-items: center;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding:1rem 1.5rem ;
+    margin: 0rem 10rem -37rem -11rem;
   }
-  
+  .facialoil{
+      margin-bottom: 11rem;
+  }
+  .left{
+      margin-top: -7rem;
+  }
 }
 
 
