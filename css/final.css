@@ -632,22 +632,21 @@ margin: 2rem 10rem;
       margin-top: -7rem;
   }
 .blue{
-    margin-left: -55rem;
-    margin-top: -140rem;
-    width: 33rem;
+    margin-left: -67rem;
+    margin-top: -151rem;
+    width: 34rem;
   }
+  
 .pink1{
-    height: 12rem;
+    height: 16rem;
     align-self: center;
 }
-  .neon{
-      margin-top: 54rem;
-      
-  }
-  .down{
-    margin-top: 1rem;
-    margin-left: -52rem;
-    
+.pink1.neon{
+     margin-top: 81rem;
+}
+ .down{
+    margin-top: 37rem;
+    margin-left: -74rem;
   }
 }
 
