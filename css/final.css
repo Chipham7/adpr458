@@ -569,7 +569,7 @@ margin: 2rem 10rem;
         grid-column: 3/ span 4;
         margin: 7rem 1rem 6.5rem 0rem;
      }
-    img{
+    .interactive-image img{
         max-width: 161%;
     }
     .delivery {
