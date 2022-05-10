@@ -572,6 +572,9 @@ margin: 2rem 10rem;
     .interactive-image img{
         max-width: 161%;
     }
+    .box img{
+        max-width: 100%;
+    }
     .delivery {
         display: grid;
         grid-template-columns: repeat(25, 1fr);
@@ -627,6 +630,24 @@ margin: 2rem 10rem;
   }
   .left{
       margin-top: -7rem;
+  }
+.blue{
+    margin-left: -55rem;
+    margin-top: -140rem;
+    width: 33rem;
+  }
+.pink1{
+    height: 12rem;
+    align-self: center;
+}
+  .neon{
+      margin-top: 54rem;
+      
+  }
+  .down{
+    margin-top: 1rem;
+    margin-left: -52rem;
+    
   }
 }
 
