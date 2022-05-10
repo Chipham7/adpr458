@@ -1,5 +1,9 @@
-let navbar= document.querySelector('.navbar');
+const primaryNav = document.querySelector(".primary-navigation");
+const navToggle = document.querySelector(".mobile-nav-toggle");
 
-document.querySelector('#menu-btn') .onclick = () => {
-    navbar .classList .toggle ('active');
-}
+navToggle.addEventListener ('click',()  => { 
+    const visibility = primaryNav.getAttribute('data-visible')
+    if (visibility === "false"){
+        primaryNav .setAttribute ("data-visible", true)
+    }
+});

@@ -21,6 +21,7 @@
 
 </script>     
 <script src="https://kit.fontawesome.com/dd4e3098c2.js" crossorigin="anonymous"></script>
+<script src="js/script.js" defer></script>
 </head>
 
 <!--Body starts here-->
@@ -30,11 +31,15 @@
     <a href="index.html" class="logo">
            <img src="images/kravelogo.png" alt="logo">
     </a>
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"> 
+        <span class="sr-only">Menu</span>
+    </button>
     <nav>
-        <ul id="primary-navigation" class="primary-navigation flex">
+        <ul id="primary-navigation" 
+            data-visible="false" class="primary-navigation flex">
             <li class="active">
                 <a class="bar" href="greatbodyrelief.html">
-                    <span aria-hidden="true">00</span> Great Body Relief</a>
+                     <span aria-hidden="true">00</span> Great Body Relief</a>
             <li>        
                 <a class="bar" href="greatbarrierrelief.html">
                     <span aria-hidden="true">01</span> Great Barrier Relief</a>
@@ -43,9 +48,9 @@
                     <span aria-hidden="true">02</span>Kale-Lalu-yAHA</a></li>
         </ul>
     </nav>
-    <div class="icon">
+    <!-- <div class="icon">
      <div class="fas fa-bars" id="menu-btn"></div>
-    </div>
+    </div> -->
  </header>
  <!--- header section ends here -->
 
@@ -126,6 +131,6 @@
 </footer>
 
 <!-- custom js file link -->
-<script src="js/script.js"></script>
+
 </body>
 </html>
