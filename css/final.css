@@ -517,6 +517,11 @@ margin: 2rem 10rem;
 } 
 .primary-navigation a{
     text-decoration: none;
+    color: var(--regular-color);
+}
+.primary-navigation a:hover{
+    text-decoration: underline;
+   
 }
 .primary-navigation a > [aria-hidden="true"]{
 font-weight: 700;
@@ -702,10 +707,39 @@ margin-inline-end: 0.75em;
 .bottom{
     margin-top: 42rem;
 }
-
+.primary-navigation{
+    position:fixed;
+    inset: 0 0 0 50%; 
+    flex-direction: column;
+    padding: min(50vh, 28rem) 2rem;
+    z-index: 1000;
+    background: var(--light-color);
+    transform: translateX(100%);
+} 
+.primary-navigation [data-visible="true"] {
+    transform: translateX(0%);
 }
 
-@media (max-width: 35em){
+.mobile-nav-toggle{
+    display: block;
+    position:absolute;
+    background: url("/images/threeline.png");
+    background-repeat: no-repeat;
+    width: 37%;
+    scale: 8%;
+    aspect-ratio: 1;
+    top: -14rem;
+    right: -13rem;;
+    z-index: 9999;
+}
+.primary-navigation {
+    text-decoration: none;
+    padding: 1%;
+    color: var(--regular-color);
+}
+}
+
+/* @media (max-width: 35em){
     .primary-navigation{
         position:fixed;
         inset: 0 0 0 50%; 
@@ -718,7 +752,7 @@ margin-inline-end: 0.75em;
     .primary-navigation [data-visible="true"] {
         transform: translateX(0%);
     }
-    
+
     .mobile-nav-toggle{
         display: block;
         position:absolute;
@@ -731,4 +765,4 @@ margin-inline-end: 0.75em;
         right: -8rem;
         z-index: 9999;
     }
-}
+} */

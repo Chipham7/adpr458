@@ -23,20 +23,31 @@
 <!--Body starts here-->
 <body>
 <!--Header-->
-<header class="header">
+<header class="header flex">
     <a href="index.html" class="logo">
-        <img src="images/kravelogo.png" alt="logo"></a>
-<!--Navigation-->
-<nav class="navbar">
-     <a href="greatbodyrelief.html">Great Body Relief</a></li>
-     <a href="greatbarrierrelief.html">Great Barrier Relief</a></li>
-     <a href="kalelaluyaha.html">Kale-Lalu-yAHA</a></li>
-</nav>
-<div class="icon">
-    <div class="fas fa-bars" id="menu-btn"></div>
- </div>
-
-</header>
+           <img src="images/kravelogo.png" alt="logo">
+    </a>
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"> 
+        <span class="sr-only">Menu</span>
+    </button>
+    <nav>
+        <ul id="primary-navigation" 
+            data-visible="false" class="primary-navigation flex">
+            <li class="active">
+                <a class="bar" href="greatbodyrelief.html">
+                     <span aria-hidden="true"></span> Great Body Relief</a>
+            <li>        
+                <a class="bar" href="greatbarrierrelief.html">
+                    <span aria-hidden="true"></span> Great Barrier Relief</a>
+            <li> 
+                <a class="bar" href="kalelaluyaha.html">
+                    <span aria-hidden="true"></span>Kale-Lalu-yAHA</a></li>
+        </ul>
+    </nav>
+    <!-- <div class="icon">
+     <div class="fas fa-bars" id="menu-btn"></div>
+    </div> -->
+ </header>
  <!---Header close here-->
 
 <!---Welcome Section-->
